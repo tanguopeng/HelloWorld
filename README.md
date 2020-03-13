@@ -16,5 +16,10 @@ git add test.py
 6.提交到本地库
 git commit -m '第一次提交'
 
-7.更新到远程库
+7.更新到远程库（可能需要输入密码）
 git push
+
+也可以修改 .git目录下的 config文件为
+[remote"origin"]
+
+    url = https://用户名:密码@github.com/用户名/仓库名.git
