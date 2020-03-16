@@ -1,1 +1,1 @@
-print('dddd')
+print('V1.0')
